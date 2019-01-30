@@ -15,8 +15,7 @@ class Home extends Component{
         return(
             <div className="col-md-6 col-xs-12" style={{paddingTop:'5%',marginLeft:'40%'}}>
                 <div className="col-md-6 col-xs-12" >
-                    <h1 style={{color:'white',marginBottom:'1em',fontFamily:'Major Mono Display, monospace',display:'inline'}}>Welcome!</h1>
-                   
+                    <h1 style={{color:'white',marginBottom:'1em',fontFamily:'Major Mono Display, monospace'}}>Welcome!</h1>
                         <button className="btn btn-warning" >Add Order</button>
                         <button className="btn btn-info" >View Report</button>
                    
