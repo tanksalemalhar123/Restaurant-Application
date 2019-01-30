@@ -17,8 +17,8 @@ class Home extends Component{
                 <div className="col-md-6 col-xs-12" >
                     <h1 style={{color:'white',marginBottom:'1em',fontFamily:'Major Mono Display, monospace',display:'inline'}}>Welcome!</h1>
                    
-                        <button style={{marginTop:'1em',marginRight:'0.5em',marginBottom:'0.5em'}} className="btn btn-warning" >Add Order</button>
-                        <button style={{marginTop:'1em',marginBottom:'0.5em'}} className="btn btn-info" >View Report</button>
+                        <button className="btn btn-warning" >Add Order</button>
+                        <button className="btn btn-info" >View Report</button>
                    
                 </div>
                 <div className="col-md-6 col-xs-12">
