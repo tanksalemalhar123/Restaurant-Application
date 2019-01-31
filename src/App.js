@@ -3,6 +3,9 @@ import fire from './config/Fire';
 import './App.css';
 import Login from './Login';
 import Home from './Home';
+import DropdownList from './DropdownList';
+import TotalAmount from './TotalAmount';
+
 
 class App extends Component {
   constructor(props){
@@ -10,12 +13,13 @@ class App extends Component {
   
     this.state={
       user:{},
-
+     
     }
   }
   
   componentDidMount(){
     this.authListener();
+   
   }
 
   authListener(){
@@ -39,6 +43,8 @@ class App extends Component {
     return (
       <div className="App">
     {this.state.user ? (<Home/>) : (<Login/>)}
+    
+      
       </div>
     );
   }
