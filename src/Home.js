@@ -14,13 +14,7 @@ class Home extends Component{
     logout(){
         fire.auth().signOut();
     }
-
-    calculate= () =>{
-       
-    }
-
    
-
     render(){
         return(
             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -38,7 +32,7 @@ class Home extends Component{
                    <br/>
                    <TotalAmount/>
                    <div>
-                    <button type="button" className="btn btn-danger" onClick={this.calculate}> Calculate Total </button>
+                    <button type="button" style={{}} className="btn btn-danger" > Calculate Total </button>
                 </div>
                 </center>
                    

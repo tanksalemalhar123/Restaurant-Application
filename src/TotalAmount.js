@@ -1,10 +1,8 @@
 import React,{Component} from 'react';
-import DropdownList from './DropdownList';
+
 
 class TotalAmount extends Component{
-    constructor(props){
-        super(props);
-        }
+   
     render(){
         return(
             <div>
